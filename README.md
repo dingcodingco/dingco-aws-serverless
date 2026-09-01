@@ -18,13 +18,12 @@
 | 파일 | 쓰이는 곳 | 내용 |
 |---|---|---|
 | `diag-sync-vs-async.png` | 1-1 | 요청 기반과 이벤트 기반 처리 흐름 비교 |
-| `term-region.png` | 1-2 | 리전만 바꿔 조회했을 때의 실제 출력 |
-| `diag-service-map.png` | 1-3 | Lambda·SQS·DLQ·S3·DynamoDB 역할 배치도 |
-| `term-resources.png` | 1-3 | 큐·DLQ·버킷·테이블 생성 확인 출력 |
-| `diag-payload-ref.png` | 1-3 | 본문 크기와 무관하게 일정한 메시지 크기 |
-| `diag-local-to-aws.png` | 1-4 | 로컬 검증에서 배포·teardown 까지 6단계 |
-| `term-redelivery.png` | 1-5 | 삭제하지 않은 메시지가 같은 MessageId 로 재전달되는 실제 출력 |
-| `term-dlq.png` | 1-5 | 재시도 한도 초과 후 DLQ 로 이동한 실제 출력 |
-| `term-teardown.png` | 1-5 | teardown 후 목록이 비어 있는 실제 출력 |
+| `diag-service-map.png` | 1-2 | Lambda·SQS·DLQ·S3·DynamoDB 역할 배치도 |
+| `term-resources.png` | 1-2 | 큐·DLQ·버킷·테이블 생성 확인 출력 |
+| `diag-payload-ref.png` | 1-2 | 본문 크기와 무관하게 일정한 메시지 크기 |
+| `diag-local-to-aws.png` | 1-3 | 로컬 검증에서 배포·teardown 까지 6단계 |
+| `term-redelivery.png` | 1-4 | 삭제하지 않은 메시지가 같은 MessageId 로 재전달되는 실제 출력 |
+| `term-dlq.png` | 1-4 | 재시도 한도 초과 후 DLQ 로 이동한 실제 출력 |
+| `term-teardown.png` | 1-4 | teardown 후 목록이 비어 있는 실제 출력 |
 
 터미널 캡처는 모두 **LocalStack 4.9 에서 실제로 실행한 출력**입니다. 지어낸 출력은 없습니다.
